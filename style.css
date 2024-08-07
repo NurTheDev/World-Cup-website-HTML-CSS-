@@ -241,3 +241,91 @@ footer a{
     text-align: center;
    }
 }
+@media screen and (min-width: 688px) and (max-width:992px) {
+    /* heading part */
+    header{
+        margin: 50px auto;
+        padding: 60px 0px 0px 30px;
+        width: 90%px;
+        height: 335px;
+        gap: 2px;
+        justify-content: space-around;
+    }
+    .contant{
+        padding: 0px;
+        width: 40%;
+    }
+    .contant h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 290px;
+    }
+    .contant p{
+        font-size: 14px;
+        font-weight: 400;
+        height: 50px;
+        width: 316px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .headerIMG img{
+        width: 323px;
+        height: 340px;
+    }
+    main{
+        flex-direction: column;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .navbar{
+        flex-direction: row;
+        background: none;
+        width: auto;
+        height: auto;
+        gap: 10px;
+    }
+    .navlink input{
+        width: 230px;
+        height: 65px;
+        border: 1px solid #E8E8E8;
+    }
+    .differen-navlink input{
+        width: 230px;
+        height: 65px;
+        border: 1px solid #E8E8E8;
+    }
+    .tablet{
+        display: none;
+    }
+    .view-btn{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .view-btn button{
+        background: #d00;
+        padding: 12px 30px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        border: none;
+    }
+    .blogs-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+}
+footer{
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.footerContant{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   }
+
+}
