@@ -16,7 +16,7 @@ header{
     gap: 50px;
     align-items: center;
     color: #fff;
-    width: 90%;
+    width: 85%;
     max-width: 2000px;
     margin: 15px auto;
     padding: 33px 80px 0px 80px;
@@ -85,7 +85,7 @@ header{
 main{
     display: flex;
     gap: 24px;
-    margin: 130px auto;
+    margin: 100px auto;
     width: 100%;
     max-width: 2000px;
 }
@@ -126,6 +126,9 @@ main{
 .blogs-footer p{
     display: inline-block;
     margin: 0px 4px;
+}
+.view-btn{
+    display: none;
 }
 /* Footter section style */
 footer{
@@ -300,6 +303,7 @@ footer a{
     .view-btn{
         text-align: center;
         margin-top: 50px;
+        display: block;
     }
     .view-btn button{
         background: #d00;
